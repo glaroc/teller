@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+	<body>
+	<div id="storymap" class="container-fluid" >
+	    <div class="row">
+	        <div class="col-sm-6 col-md-8 storymap-map"></div>
+	        <div class="col-sm-6 col-md-4 storymap-story">
+	            <section data-scene="overview" data-background="./img/La_Monteregie_vue_des_airs.mp4">
+	                <div class="fullscreen text-center">
+	                    <h1 class="display-4 d-flex justify-content-center main-title">Ecosystem Services in Montérégie</h1>
+	                    <span class="subtitle" class="d-flex justify-content-center">This story map
+	                        illustrates the multiple services provided by nature in the Montérégie region of Québec, Canada. 
+	                    </span>
+	                </div>
+	            </section>
+	        	<section data-scene="scene-monteregie">
+				    <h2>The Montérégie</h2>
+				    <p class="medium-text">This region is dominated by a rural landscape and has undergone important changes in the past decades due to urbanization, agricultural intensification and climate change. </p>
+				    	<img src="./img/1571255-10-ans-population-banlieues-auto.jpg" style="width:100%;padding-top:20px">
+				</section>
+				<section data-scene="scene-carbon">
+				    <h2>What controls carbon sequestration in forests? </h2>
+				    <p class="medium-text">Sampling sites were located in privately owned forests scattered throughout the region</p>
+				    <img src="./img/DSC_7681.jpeg" style="width:100%;padding-top:20px">
+				</section>
+				<section data-scene="scene-field-photo" data-background="./img/Carly_tree.jpeg">
+	               <div class="fullscreen">
+	               		<div class="photo-text">
+	                		Field work was undertaken to identify and measure all trees and surrounding vegetation
+	                	</div>
+		                </div>
+				</section>
+				<section data-scene="scene-carbon-zoom">
+				    <h2>Results</h2>
+				    <p class="medium-text">Analysis at this site revealed that... </p>
+				    <img src="./img/ziter-figure.png" style="width:100%;padding-top:20px">
+				</section>
+				<section data-scene="scene-svg-results">
+				    <h2>Ecosystem services for different forest types</h2>
+				</section>
+	        </div>
+	    </div>
+	</div>
+	</body>
+</html>

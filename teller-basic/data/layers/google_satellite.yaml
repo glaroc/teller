@@ -1,0 +1,6 @@
+name: "google_satellite"
+src_type: "L.tileLayer"
+link: "https://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}"
+baselayer: false
+options : 
+  zIndex: 1

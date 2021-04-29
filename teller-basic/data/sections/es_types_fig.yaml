@@ -1,0 +1,10 @@
+weight: 2
+name: "es_type_fig"
+layers: "stamen_bw"
+zoom: 9
+lat: 45.6
+lng: -73.2
+init_js: "Radar.init('spider')"
+left_title: "Cool figure"
+left_text: "Look at it"
+left_svg_class: "spider"

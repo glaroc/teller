@@ -1,0 +1,8 @@
+weight: 1
+name: "splash"
+layers: ""
+background_media : "./img/La_Monteregie_vue_des_airs.mp4"
+main_title: "Ecosystem services in the Montérégie"
+zoom: 10
+lat: 45.6
+lng: -73.2

@@ -1,0 +1,59 @@
+.main-title{
+	font-size:5em;
+	letter-spacing: 0.05em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .8);
+}
+
+.subtitle{
+	color:rgba(255, 255, 255, .8);
+	font-weight:600;
+	font-size: 2em;
+}
+
+.photo-title{
+	font-size:3em;
+	letter-spacing: 0.05em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .8);
+}
+
+
+.medium-text{
+	font-size:16px;
+}
+
+
+.radarspider{
+	background: rgba(0,0,0,0.95);
+    border-radius:40px;
+    margin-left:150%;
+}
+
+.fullscreen::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background-color: rgba(0,0,0,0.15);
+}
+
+.photo-text {
+    padding: 5px 15px 10px 15px;
+    max-width:25%;
+    font-size:2em;
+    margin: 25px;
+    border-radius: 5px;
+    background: #eee;
+    opacity: 0;
+    color: #1c1c1c;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    z-index:1000;
+}
+
+.marker-popup{
+	font-size:1.3em;
+}
